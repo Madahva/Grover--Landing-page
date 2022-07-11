@@ -1,0 +1,11 @@
+* {
+  --black: #2E2E2E;
+  --grey: #676767;
+  --orange: #F54748;
+  --orange-color--hsl: 360, 90%, 62%;
+}
+
+body {
+  font-family: poppins, sans-serif;
+  background: #FFF;
+}
