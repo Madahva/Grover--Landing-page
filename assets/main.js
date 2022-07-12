@@ -5,8 +5,8 @@ const closeBtn = document.querySelector('#closeBtn');
 const headerImage = document.querySelector('#header-image');
 const modalLinks = document.querySelectorAll('.header__modal-body__links')
 const modal = document.querySelector('#modal');
-const form = document.querySelector('form');
-const input = document.querySelector('input');
+const form = document.querySelectorAll('form');
+const input = document.querySelectorAll('input');
 
 openBtn.onclick = () => {
   modal.classList.remove('hidden');
@@ -31,4 +31,11 @@ for (var i = 0; i < modalLinks.length; i++) {
 form.onsubmit = (e)=>{
   e.preventDefault;
   input.value = '';
+}
+
+for (let i = 0; i < form.length; i++ ) {
+  form[i].onsubmit = (e)=>{
+    e.preventDefault;
+    input[i].value = '';
+  }
 }
