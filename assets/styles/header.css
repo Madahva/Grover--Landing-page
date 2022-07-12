@@ -143,7 +143,7 @@
   caret-color: var(--orange);
   color: var(--black);
   outline: none;
-  width: 60%;
+  width: 80%;
 }
 
 /* @media(min-width: 720px) {
