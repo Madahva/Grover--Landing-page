@@ -167,7 +167,7 @@
     display: flex;
     justify-content: center;
     gap: 2rem;
-    min-width: clamp(375px, 50vw, 500px);
+    min-width: clamp(375px, 45vw, 500px);
   }
 
   .header__nav-desktop a {
@@ -199,7 +199,5 @@
 @media(min-width:1080px) {
   .header {
     padding: clamp(2rem, 10vw, 3rem) clamp(2.5rem, 9.5vw, 8rem);
-  }
-
-  
+  }  
 }
