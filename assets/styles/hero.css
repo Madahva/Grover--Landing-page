@@ -82,7 +82,7 @@
 }
 
 .hero__buttons button:last-child:hover {
- transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .hero__image {
@@ -98,5 +98,78 @@
     flex-direction: row;
     gap: 4rem;
     margin-top: 4rem;
+  }
+}
+
+@media(min-width: 875px) {
+  .hero {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero__text {
+    max-width: 50%;
+  }
+
+  .hero__text-slogan {
+    margin: 0;
+  }
+
+  .hero__text-para,
+  .hero__text-tittle {
+    text-align: left;
+  }
+
+  .hero__buttons {
+    gap: 1rem;
+    justify-content: flex-start;
+  }
+
+  .hero__buttons button {
+    max-width: 50%;
+  }
+
+  .hero__buttons button:first-child {
+    min-width: 150px;
+  }
+
+  .hero__image {
+    max-width: 50%;
+  }
+}
+
+@media(min-width:1080px) {
+  .hero {
+    padding: clamp(2rem, 10vw, 3rem) clamp(2.5rem, 9.5vw, 8rem);
+  }
+
+  .hero__text {
+    max-width: 45%;
+  }
+
+  .hero__text-slogan {
+    padding: 0 0.5rem;
+  }
+
+  .hero__text-slogan p {
+    font-size: 16px;
+  }
+
+  .hero__text-tittle {
+    font-size: 36px;
+  }
+
+  .hero__text-para {
+    font-size: 16px;
+  }
+
+  .hero__buttons {
+    font-size: 1rem;
+    gap: 2rem;
+  }
+
+  .hero__image {
+    max-width: 55%;
   }
 }
