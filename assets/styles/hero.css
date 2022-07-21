@@ -1,0 +1,90 @@
+.hero {
+  padding: 3rem;
+}
+
+.hero__text-slogan {
+  align-items: center;
+  background-color: rgba(245, 71, 71, 0.1);
+  border-radius: 3rem;
+  display: flex;
+  gap: .5rem;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 200px;
+}
+
+.hero__text-slogan p {
+  color: var(--orange);
+  font-size: 15px;
+}
+
+.hero__text-tittle {
+  color: var(--black);
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.hero__text-tittle span {
+  color: var(--orange);
+}
+
+.hero__text-para {
+  color: var(--grey);
+  text-align: center;
+  font-size: 15px;
+  line-height: 2rem;
+}
+
+.hero__buttons {
+  align-items: center;
+  display: flex;
+  font-size: 13px;
+  flex-direction: column-reverse;
+  justify-content: center;
+  margin: 2rem 0;
+  gap: 1.5rem;
+}
+
+.hero__buttons button {
+  background-color: #fff;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.hero__buttons button:first-child {
+  background-color: var(--orange);
+  border-radius: 1rem;
+  color: #fff;
+  padding: 1rem;
+  transition: all ease-in .2s;
+  min-width: 200px;
+}
+
+.hero__buttons button:first-child:hover {
+  background-color: #fff;
+  border-color: var(--orange);
+  color: var(--orange);
+}
+
+.hero__buttons button:last-child {
+  align-items: center;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px #f5474727;
+  color: #000;
+  display: flex;
+  padding-right: 2rem;
+  justify-content: center;
+  max-height: 50px;
+  overflow-y: hidden;
+  transition: all ease-in .2s;
+}
+
+.hero__buttons button:last-child:hover {
+ transform: scale(1.1);
+}
+
+.hero__image {
+  max-width: 100%;
+}
