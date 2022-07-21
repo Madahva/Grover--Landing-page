@@ -35,7 +35,7 @@ form.onsubmit = (e)=>{
 
 for (let i = 0; i < form.length; i++ ) {
   form[i].onsubmit = (e)=>{
-    e.preventDefault;
+    e.preventDefault();
     input[i].value = '';
   }
 }

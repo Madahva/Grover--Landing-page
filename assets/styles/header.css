@@ -27,7 +27,7 @@
 }
 
 .header__modal {
-  background-color: hsla(var(--orange-color--hsl), .4);
+  background-color: #f17272;
   bottom: 0;
   display: flex;
   flex-direction: column;
@@ -63,7 +63,7 @@
 }
 
 .header__modal-nav div {
-  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
   padding: 1rem 0;
 }
 
@@ -82,7 +82,7 @@
 }
 
 .header__modal-nav a:hover {
-  background-color: hsla(var(--orange-color--hsl), .4);
+  background-color: var(--orange);
   border: 2px solid transparent;
   transition: all ease-in-out 300ms;
 }
