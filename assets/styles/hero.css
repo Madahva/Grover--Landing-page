@@ -88,3 +88,15 @@
 .hero__image {
   max-width: 100%;
 }
+
+@media (min-width: 600px) {
+  .hero__text-slogan {
+    margin-bottom: 4rem;
+  }
+
+  .hero__buttons {
+    flex-direction: row;
+    gap: 4rem;
+    margin-top: 4rem;
+  }
+}
