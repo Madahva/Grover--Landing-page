@@ -54,7 +54,7 @@
 }
 
 .hero__buttons button:first-child {
-  background-color: var(--orange);
+  background-color: var(--red);
   border-radius: 1rem;
   color: #fff;
   padding: 1rem;
@@ -64,8 +64,8 @@
 
 .hero__buttons button:first-child:hover {
   background-color: #fff;
-  border-color: var(--orange);
-  color: var(--orange);
+  border-color: var(--red);
+  color: var(--red);
 }
 
 .hero__buttons button:last-child {
