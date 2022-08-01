@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="./assets/styles/header.css">
   <link rel="stylesheet" href="./assets/styles/hero.css">
   <link rel="stylesheet" href="./assets/styles/features.css">
+  <link rel="stylesheet" href="./assets/styles/footer.css">
 
   <script src="https://kit.fontawesome.com/a17eedded9.js" crossorigin="anonymous"></script>
   <script defer src="./assets/main.js"></script>
@@ -37,16 +38,16 @@
       <div class="header__modal-body">
         <nav class="header__modal-nav">
           <div>
-            <a class="header__modal-body__links" href="#">home</a>
+            <a class="header__modal-body__links" tabindex="0" href="#">home</a>
           </div>
           <div>
-            <a class="header__modal-body__links" href="#">menu</a>
+            <a class="header__modal-body__links" tabindex="0" href="#">menu</a>
           </div>
           <div>
-            <a class="header__modal-body__links" href="#">service</a>
+            <a class="header__modal-body__links" tabindex="0" href="#">service</a>
           </div>
           <div>
-            <a class="header__modal-body__links" href="#">shop</a>
+            <a class="header__modal-body__links" tabindex="0" href="#">shop</a>
           </div>
         </nav>
       </div>
@@ -73,10 +74,10 @@
     </div>
 
     <nav class="header__nav-desktop">
-      <a href="#">Home</a>
-      <a href="#">Menu</a>
-      <a href="#">Service</a>
-      <a href="#">Shop</a>
+      <a tabindex="0" href="#">Home</a>
+      <a tabindex="0" href="#">Menu</a>
+      <a tabindex="0" href="#">Service</a>
+      <a tabindex="0" href="#">Shop</a>
     </nav>
 
     <form class="header__form header__form--desktop">
@@ -176,7 +177,30 @@
       </div>
     </section>
   </main>
-  <!-- <footer></footer> -->
+  <footer>
+    <div class="footer__description">
+      <img src="./assets/images/logo.svg" alt="grover logo">
+      <p>Fast delivery, which is active all over the world, serves with many transportation vehicles.</p>
+    </div>
+    <div class="footer__company">
+      <h5>Company</h5>
+      <a href="#">About us</a>
+      <a href="#">Blog</a>
+      <a href="#">All products</a>
+      <a href="#">Locations Map</a>
+    </div>
+    <div class="footer__services">
+      <h5>Services</h5>
+      <a href="#">Order tracking</a>
+      <a href="#">Wish List</a>
+      <a href="#">My account</a>
+      <a href="#">Terms & Conditions</a>
+    </div>
+    <div class="footer__get-in-touch">
+      <h5>Get in Touch</h5>
+      <p>Subscribe to our weekly Newsletter and receive updates via email.</p>
+    </div>
+  </footer>
 </body>
 
 </html>
