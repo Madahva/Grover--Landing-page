@@ -93,10 +93,11 @@
 .features__text-sub-tittle {
   text-align: center;
   margin-top: 2rem;
+  color: #03A66B;
 }
 
-.features__text-sub-tittle:first-child {
-  color: #03A66B;
+.yellow-text {
+  color: var(--yellow);
 }
 
 .features__text-tittle {
@@ -129,4 +130,25 @@
   background-color: #fff;
   border-color: var(--red);
   color: var(--red);
+}
+
+@media(min-width: 700px) {
+  .what-we-serve__card-container {
+    max-width: 696px;
+    margin: 0 auto;
+  }
+
+  .features-container img {
+    max-width: 696px;
+  }
+
+  .features__text{
+    align-items: flex-start;
+    justify-content: start;
+  }
+
+  .features__text-para {
+    text-align: left;
+    font-size: 1rem;
+  }
 }
