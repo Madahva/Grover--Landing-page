@@ -138,6 +138,10 @@
     margin: 0 auto;
   }
 
+  .why-choose-us {
+    padding: clamp(2rem, 10vw, 3rem) clamp(2.5rem, 9.5vw, 8rem);
+  }
+
   .features-container img {
     max-width: 696px;
   }
@@ -151,4 +155,39 @@
     text-align: left;
     font-size: 1rem;
   }
+}
+
+@media(min-width: 800px) {
+  .what-we-serve {
+    padding: 3rem;
+  }
+
+  .what-we-serve__card-container {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .what-we-serve__tittle {
+    margin-bottom: 4rem;
+  }
+
+  .what-we-serve__card-item {
+    min-height: 350px;
+  }
+
+  .features-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .features-container img {
+    max-width: 60%;
+  }
+
+  .features__text-tittle {
+    text-align: left;
+  }
+
 }
