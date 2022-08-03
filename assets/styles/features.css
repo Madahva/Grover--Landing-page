@@ -189,5 +189,10 @@
   .features__text-tittle {
     text-align: left;
   }
+}
 
+@media(min-width: 920px) {
+  .what-we-serve__card-item {
+    min-width: 250px;
+  }
 }
