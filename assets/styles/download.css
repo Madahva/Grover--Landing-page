@@ -1,0 +1,66 @@
+.download {
+  align-items: center;
+  background-color: #FEF5F5;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.download-image {
+  max-width: 290px;
+}
+
+.download__text {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.download__text-sub-tittle {
+  margin-top: 3rem;
+  color: var(--orange);
+}
+
+.download__text-tittle {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.download__text-para {
+  color: var(--grey);
+  font-size: 14px;
+  line-height: 1.7rem;
+  margin-bottom: 3rem;
+}
+
+.download__text-buttons {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  min-width: 100%;
+}
+
+.download__text-buttons button {
+  align-items: center;
+  border-radius: 1rem;
+  transition: all ease-in .2s;
+  border: 1px solid grey;
+  display: flex;
+  min-width: 100%;
+  justify-content: space-around;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.download__text-buttons button:hover {
+  background-color: transparent;
+  border: 1px solid var(--orange);
+
+}
+
+.download__text-buttons p { 
+  margin: 0;
+}
