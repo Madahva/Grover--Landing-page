@@ -158,7 +158,7 @@
 }
 
 @media(min-width: 800px) {
-  .what-we-serve {
+  .what-we-serve, .why-choose-us {
     padding: 3rem;
   }
 
