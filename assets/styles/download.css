@@ -64,3 +64,28 @@
 .download__text-buttons p { 
   margin: 0;
 }
+
+@media(min-width: 500px) {
+.download__text-buttons {
+  flex-direction: row;
+}
+
+.download__text-buttons button {
+  min-width: 200px;
+}
+}
+
+@media(min-width: 800px) {
+.download {
+  padding: 3rem;
+}
+
+  .download__text {
+    align-items: start;
+  }
+
+  .download__text-buttons {
+    justify-content: start;
+    gap: 2rem;
+  }
+}
