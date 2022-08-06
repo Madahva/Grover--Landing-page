@@ -192,6 +192,10 @@
 }
 
 @media(min-width: 920px) {
+  .what-we-serve, .why-choose-us{
+    padding: clamp(2rem, 10vw, 3rem) clamp(2.5rem, 9.5vw, 8rem);
+  }
+
   .what-we-serve__card-item {
     min-width: 250px;
   }
