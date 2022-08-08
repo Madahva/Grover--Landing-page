@@ -22,11 +22,11 @@ footer a:hover {
 
 footer p {
   margin-top: 2rem;
-  max-width: 200px;
+  line-height: 1.7rem;
 }
 
 footer h5 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin: 0;
 }
 
@@ -37,11 +37,37 @@ footer h5 {
   gap: 1rem;
 }
 
+.footer__links-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  width: 100%;
+}
+
+@media(min-width: 700px) {
+  .footer__links-container {
+    flex-direction: row;
+    justify-content: center;
+    gap: 8rem;
+  }
+}
+
+
 @media(min-width: 900px) {
   footer {
-    padding: clamp(2rem, 10vw, 3rem) clamp(2.5rem, 9.5vw, 8rem);
+    align-items: flex-start;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    padding: clamp(2rem, 10vw, 3rem) clamp(2.5rem, 9.5vw, 8rem);
+    text-align: left;
+  }
+
+  footer p {
+    max-width: 200px;
+  }
+
+  .footer__links-container {
+    justify-content: center;
+    gap: 30%;
   }
 }
