@@ -4,7 +4,7 @@
 - Semantic HTML5 markup
 - CSS Flexbox
 - Mobile-first workflow
-- JavaScript
+-
 - Figma
 
 ### 🔗 You can see the deploy here: https://darling-pixie-9ff28f.netlify.app/
